@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="API Suite" parallel="methods">
+  <test thread-count="1" name="API Tests" parallel="methods">
+    <classes>
+      <class name="com.fullstack.batch3.APITest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

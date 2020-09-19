@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Web Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="Web Tests(failed)">
+    <classes>
+      <class name="com.fullstack.batch3.AppTest">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="setUpAndInitialize"/>
+          <include name="cleanUpActivities"/>
+          <include name="loginWithCorrectCredentials"/>
+        </methods>
+      </class> <!-- com.fullstack.batch3.AppTest -->
+    </classes>
+  </test> <!-- Web Tests(failed) -->
+</suite> <!-- Failed suite [Web Suite] -->
